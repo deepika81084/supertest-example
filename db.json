@@ -1,0 +1,71 @@
+{
+  "?xml": {
+    "@version": "1.0",
+    "@encoding": "utf-8"
+  },
+  "root": {
+    "@id": "1",
+    "uri": {
+      "#cdata-section": "http://api.bart.gov/api/stn.aspx?cmd=stninfo&orig=24th&json=y"
+    },
+    "stations": {
+      "station": {
+        "name": "24th St. Mission",
+        "abbr": "24TH",
+        "gtfs_latitude": "37.752470",
+        "gtfs_longitude": "-122.418143",
+        "address": "2800 Mission Street",
+        "city": "San Francisco",
+        "county": "sanfrancisco",
+        "state": "CA",
+        "zipcode": "94110",
+        "north_routes": {
+          "route": [
+            "ROUTE 2",
+            "ROUTE 6",
+            "ROUTE 8",
+            "ROUTE 12"
+          ]
+        },
+        "south_routes": {
+          "route": [
+            "ROUTE 1",
+            "ROUTE 5",
+            "ROUTE 7",
+            "ROUTE 11"
+          ]
+        },
+        "north_platforms": {
+          "platform": [
+            "2"
+          ]
+        },
+        "south_platforms": {
+          "platform": [
+            "1"
+          ]
+        },
+        "platform_info": "Always check destination signs and listen for departure announcements.",
+        "intro": {
+          "#cdata-section": "\"The Mission\" refers to the San Francisco de Asis Mission, also known as Mission Dolores, which was founded 1776. Today the neighborhood is host to an eclectic mix of restaurants, markets, performance spaces, shops, and nightspots."
+        },
+        "cross_street": {
+          "#cdata-section": "Nearby Cross: 24th St."
+        },
+        "food": {
+          "#cdata-section": "Nearby restaurant reviews from <a href=\"http://www.yelp.com/search?find_desc=Restaurant+&ns=1&rpp=10&find_loc=2800 Mission Street San Francisco, CA 94110\">yelp.com</a>"
+        },
+        "shopping": {
+          "#cdata-section": "Local shopping from <a href=\"http://www.yelp.com/search?find_desc=Shopping+&ns=1&rpp=10&find_loc=2800 Mission Street San Francisco, CA 94110\">yelp.com</a>"
+        },
+        "attraction": {
+          "#cdata-section": "More station area attractions from <a href=\"http://www.yelp.com/search?find_desc=+&ns=1&rpp=10&find_loc=2800 Mission Street San Francisco, CA 94110\">yelp.com</a>"
+        },
+        "link": {
+          "#cdata-section": "http://www.bart.gov/stations/24TH"
+        }
+      }
+    },
+    "message": ""
+  }
+}
